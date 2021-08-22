@@ -199,18 +199,18 @@ export default class MessageContainer<
     const { scrollToBottomOffset } = this.props
     if (this.props.inverted) {
       if (contentOffsetY > scrollToBottomOffset!) {
-        this.setState({ showScrollBottom: true, hasScrolled: true })
+        this.setState(() => ({ showScrollBottom: true, hasScrolled: true }))
       } else {
-        this.setState({ showScrollBottom: false, hasScrolled: true })
+        this.setState(() => ({ showScrollBottom: false, hasScrolled: true }))
       }
     } else {
       if (
         contentOffsetY < scrollToBottomOffset! &&
         contentSizeHeight - layoutMeasurementHeight > scrollToBottomOffset!
       ) {
-        this.setState({ showScrollBottom: true, hasScrolled: true })
+        this.setState(() => ({ showScrollBottom: true, hasScrolled: true }))
       } else {
-        this.setState({ showScrollBottom: false, hasScrolled: true })
+        this.setState(() => ({ showScrollBottom: false, hasScrolled: true }))
       }
     }
   }
