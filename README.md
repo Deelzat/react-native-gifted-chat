@@ -1,11 +1,16 @@
-<p align="center" >
+< align="center" >
+<h3 align="center">
+This is a fork from 
+</h3>
+<h2 align="center">
+https://github.com/FaridSafi/react-native-gifted-chat
+</h2>
 <p align="center" >
    <a href="https://reactnative.gallery/FaridSafi/gifted-chat">
     <img alt="react-native-gifted-chat" src="https://thumbs.gfycat.com/AbsoluteSadDobermanpinscher-size_restricted.gif" width="260" height="510" />
  </a>
 
 </p>
-
 <h3 align="center">
   💬 Gifted Chat
 </h3>
